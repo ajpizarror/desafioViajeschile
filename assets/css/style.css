@@ -31,12 +31,20 @@ p {
   color: white;
 }
 
+.fa-solid {
+  background-color: #309cac;
+}
+
 #section4 {
   background-color: black;
 }
 
 h2 {
   color: white;
+}
+
+.icon {
+  font-size: 50px;
 }
 
 footer {
