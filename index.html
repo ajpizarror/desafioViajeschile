@@ -19,19 +19,261 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/index.js"></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/26f1f0d8af.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Viajes Chile</title>
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav class="navbar navbar-expand-lg custom-navbar" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/viajes.svg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Viajes Chile
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon color-blanco"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <section id="section1"></section>
-      <section id="section2"></section>
-      <section id="section3"></section>
-      <section id="section4"></section>
+      <section id="section1">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/img/carousel1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/carousel2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/carousel3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section id="section2">
+        <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
+        <div class="cardContainer d-flex justify-content-center">
+          <div>
+            <i class="fa-solid fa-plane coloredIcon"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              cumque eos maxime possimus temporibus praesentium, error minima
+              magnam quidem debitis? Praesentium quidem non fuga numquam, natus
+              rem inventore nam fugiat.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-mountain coloredIcon"></i>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              recusandae doloribus, quis consequuntur obcaecati dolorum maxime
+              sunt ipsa dolore iste blanditiis officiis illo totam fugit sint
+              expedita voluptatum molestias officia?
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-route coloredIcon"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              non nihil qui vitae debitis soluta quisquam, quae perferendis
+              voluptatem quam laudantium dignissimos, suscipit sapiente
+              accusantium facilis corporis fuga distinctio tempora.
+            </p>
+          </div>
+          <div></div>
+        </div>
+      </section>
+      <section id="section3">
+        <h2 class="text-center">DESTACADOS</h2>
+        <div class="cardContainer row">
+
+          <div class="col-12 col-md-3 pb-5">
+            <div class="card h-100">
+              <img
+                src="assets/img/card1.jpg"
+                class="card-img-top"
+                alt="Lorem"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p>
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 pb-5">
+            <div class="card h-100">
+              <img
+                src="assets/img/card2.jpg"
+                class="card-img-top"
+                alt="Lorem"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p>
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 pb-5">
+            <div class="card h-100">
+              <img
+                src="assets/img/card3.jpg"
+                class="card-img-top"
+                alt="Lorem"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p>
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-3 pb-5">
+            <div class="card h-100">
+              <img
+                src="assets/img/card4.jpg"
+                class="card-img-top"
+                alt="Lorem"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum</h3>
+                <p>
+                  Cubilia elementum posuere arcu rhoncus egestas lectus, diam
+                  aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
+                  dapibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+      <section id="section4">
+        <h2 class="text-center">Contacto</h2>
+        <div>
+
+          <form class="p-5" style="display: flex; flex-direction: column">
+            <p class="text-white text-center fs-4">Recibe cupones en tu correo</p>
+            <div class="mb-3 d-flex gap-3" style="flex-direction: column">
+              <input
+                type="text"
+                placeholder="Nombre"
+                class="form-control"
+                id="exampleInputName1"
+                aria-describedby="emailHelp"
+              />
+              <input
+                type="email"
+                placeholder="Correo Electrónico"
+                class="form-control"
+                id="exampleInputEmail1"
+              />
+              <input
+                type="email"
+                placeholder="Mensaje"
+                class="form-control"
+                id="exampleInputEmail1"
+              />
+            </div>
+            <div style="display: flex; justify-content: center">
+              <button type="submit" class="btn btn-light" style="width: 5rem">
+                Enviar
+              </button>
+            </div>
+          </form>
+
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <h2>Viajes Chile</h2>
+      <i class="fa-brands fa-square-github coloredIcon"></i>
+      <i class="fa-brands fa-linkedin coloredIcon"></i>
+      <i class="fa-brands fa-square-x-twitter coloredIcon"></i>
+      <i class="fa-brands fa-square-facebook coloredIcon"></i>
+    </footer>
   </body>
 </html>
