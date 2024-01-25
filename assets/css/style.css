@@ -2,3 +2,39 @@
   margin: 0;
   padding: 0;
 }
+
+p {
+  color: white;
+}
+
+.navbar {
+  background-color: #309cac;
+}
+
+#section2 {
+  background-color: black;
+  color: white;
+}
+
+#section3 {
+  background-color: black;
+  color: white;
+}
+
+.card-body {
+  background-color: #309cac;
+}
+
+#section4 {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: #309cac;
+  color: white;
+}
+
+.icon {
+  font-size: 30px;
+}
