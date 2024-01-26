@@ -4,11 +4,14 @@
   color: white;
 }
 
+
+/* Navbar */
 .navbar {
   background-color: transparent;
   backdrop-filter: blur(20px);
 }
 
+/* Sección 2 */
 #section2 {
   background-color: black;
 }
@@ -17,6 +20,7 @@
   background-color: #10ccf4;
 }
 
+/* Sección 3 */
 #section3 {
   background-color: black;
 }
@@ -28,6 +32,7 @@
   background-color: #10ccf4;
 }
 
+/* Sección 4 */
 #section4 {
   background-color: black;
 }
@@ -36,6 +41,7 @@
   height: 150px;
 }
 
+/* Footer */
 footer {
   background-color: #10ccf4;
 }
