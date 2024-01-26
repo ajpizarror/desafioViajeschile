@@ -1,38 +1,48 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-p {
   color: white;
 }
 
 .navbar {
-  background-color: #309cac;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
 }
 
 #section2 {
   background-color: black;
-  color: white;
+}
+
+.iconbg {
+  background-color: #10ccf4;
 }
 
 #section3 {
   background-color: black;
-  color: white;
 }
 
+.card-title {
+  color: white;
+}
 .card-body {
-  background-color: #309cac;
+  background-color: #10ccf4;
 }
 
 #section4 {
   background-color: black;
-  color: white;
+}
+
+.msgForm {
+  height: 150px;
 }
 
 footer {
-  background-color: #309cac;
+  background-color: #10ccf4;
+}
+
+.btn {
   color: white;
+  background-color: #10ccf4;
 }
 
 .icon {
