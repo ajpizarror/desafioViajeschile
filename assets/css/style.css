@@ -1,4 +1,57 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
+
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+
+/* Sección 2 */
+#section2 {
+  background-color: black;
+}
+
+.iconbg {
+  background-color: #10ccf4;
+}
+
+/* Sección 3 */
+#section3 {
+  background-color: black;
+}
+
+.card-title {
+  color: white;
+}
+.card-body {
+  background-color: #10ccf4;
+}
+
+/* Sección 4 */
+#section4 {
+  background-color: black;
+}
+
+.msgForm {
+  height: 150px;
+}
+
+/* Footer */
+footer {
+  background-color: #10ccf4;
+}
+
+.btn {
+  color: white;
+  background-color: #10ccf4;
+}
+
+.icon {
+  font-size: 30px;
+}
+
