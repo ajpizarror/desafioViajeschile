@@ -123,8 +123,9 @@
         </div>
       </section>
       <section id="section2">
-        <div class="container text-center">
+        <div class="container text-center d-none d-md-block">
           <h2 class="p-5">¿QUIENES SOMOS?</h2>
+          <hr>
           <div class="cardContainer d-flex">
             <div class="container">
               <div class="iconbg"><i class="fa-solid fa-plane"></i></div>
@@ -159,6 +160,7 @@
       <section id="section3">
         <div class="container text-center">
           <h2 class="p-5">Destacados</h2>
+          <hr>
           <div class="cardContainer row">
             <div class="col-12 col-md-3 pb-5">
               <div class="card h-100">
@@ -235,33 +237,33 @@
         <!-- Falta justificar y color de botón de enviar -->
         <div class="container text-center py-3">
           <h2>Contacto</h2>
+          <hr>
           <div class="couponForm">
             <form action="">
-              <p class="text-white text-center fs-4">
-                Recibe cupones en tu correo
-              </p>
-              <div class="mb-3 d-flex gap-3" style="flex-direction: column">
-                <p class="text-start">Nombre</p>
+              <div class="d-flex gap-1" style="flex-direction: column">
+                <p class="text-start fw-light mb-0">Nombre</p>
                 <input
                   type="text"
                   class="form-control"
                   id="exampleInputName1"
                   aria-describedby="emailHelp"
                 />
-                <p class="text-start">Correo Electrónico</p>
+                <p class="text-start fw-light mb-0">Correo Electrónico</p>
                 <input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
                 />
-                <p class="text-start">Mensaje</p>
+                <p class="text-start fw-light mb-0">Mensaje</p>
                 <input
                   type="email"
                   class="msgForm form-control"
                   id="exampleInputEmail1"
                 />
               </div>
-              <button type="submit" class="d-flex btn btn-primary">Enviar</button>
+              <button type="submit" class="d-flex btn btn-primary mt-3">
+                Enviar
+              </button>
             </form>
           </div>
         </div>
